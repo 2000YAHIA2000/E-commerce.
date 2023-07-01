@@ -23,7 +23,6 @@ class _StoreState extends State<Store> {
         body: SingleChildScrollView(
           child: Column(
             children: <Widget>[
-
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
@@ -583,8 +582,9 @@ class _StoreState extends State<Store> {
               //
               //
             ],
+
           ),
-          
+
         ),
       );
 
