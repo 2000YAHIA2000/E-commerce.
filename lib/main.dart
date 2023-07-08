@@ -1,4 +1,8 @@
+import 'package:ecommerce/test.dart';
 import 'package:flutter/material.dart';
+import 'Prodacte_dea.dart';
+import 'Profile_Setting.dart';
+import 'Sea_All.dart';
 import 'Start.dart';
 import 'Store.dart';
 
@@ -12,8 +16,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-     // home: Start(),
-      home: Store(),
+       //home:MyWidget()
+       // home: Start(),
+        //home: Profile_Setting(),
+      //home: Store(),
+        home:Sea_All(),
+     // home: Prodacte_dea(),
     );
   }
 }
